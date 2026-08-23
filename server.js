@@ -9,7 +9,11 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 app.use(express.json());
-app.use(express.static(path.join(__dirname, 'public')));
+
+// Serve assets manually to prevent index.html from overriding root '/'
+app.get('/style.css', (req, res) => res.sendFile(path.join(__dirname, 'public', 'style.css')));
+app.get('/app.js', (req, res) => res.sendFile(path.join(__dirname, 'public', 'app.js')));
+app.get('/script.js', (req, res) => res.sendFile(path.join(__dirname, 'public', 'script.js')));
 
 const KB_PATH = path.join(__dirname, 'knowledge_base.json');
 const STUDENTS_PATH = path.join(__dirname, 'students.json');
