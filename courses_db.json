@@ -1,0 +1,1214 @@
+{
+  "AKT": [
+    {
+      "code": "AKT4101",
+      "name": "PENDIDIKAN AGAMA ISLAM",
+      "sks": "2",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKT4102",
+      "name": "PENDIDIKAN AGAMA KATOLIK",
+      "sks": "-",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKT4103",
+      "name": "PENDIDIKAN AGAMA KRISTEN PROTESTAN",
+      "sks": "-",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKT4104",
+      "name": "PENDIDIKAN AGAMA BUDHA",
+      "sks": "-",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKT4105",
+      "name": "PENDIDIKAN AGAMA HINDU",
+      "sks": "-",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKT4106",
+      "name": "PENDIDIKAN AGAMA KONGHUCU",
+      "sks": "-",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKT4112",
+      "name": "PENDIDIKAN PANCASILA",
+      "sks": "2",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKT4113",
+      "name": "ETNOGRAFI PAPUA",
+      "sks": "2",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKT4115",
+      "name": "BAHASA INDONESIA",
+      "sks": "2",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKT4216",
+      "name": "PENGANTAR EKONOMI",
+      "sks": "3",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKT4217",
+      "name": "PENGANTAR BISNIS",
+      "sks": "3",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKT4218",
+      "name": "PENGANTAR AKUNTANSI I",
+      "sks": "3",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKT4219",
+      "name": "MATEMATIKA EKONOMI",
+      "sks": "3",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKT4121",
+      "name": "PENDIDIKAN KEWARGANEGARAAN",
+      "sks": "2",
+      "semester": "SMT II"
+    },
+    {
+      "code": "AKT4222",
+      "name": "PENGANTAR AKUNTANSI II",
+      "sks": "3",
+      "semester": "SMT II"
+    },
+    {
+      "code": "AKT4223",
+      "name": "PENGANTAR MANAJEMEN",
+      "sks": "3",
+      "semester": "SMT II"
+    },
+    {
+      "code": "AKT4224",
+      "name": "APLIKASI KOMPUTER AKUNTANSI",
+      "sks": "3",
+      "semester": "SMT II"
+    },
+    {
+      "code": "AKT4225",
+      "name": "STATISTIKA I",
+      "sks": "3",
+      "semester": "SMT II"
+    },
+    {
+      "code": "AKT4226",
+      "name": "HUKUM KOMERSIAL",
+      "sks": "3",
+      "semester": "SMT II"
+    },
+    {
+      "code": "AKT4327",
+      "name": "KOMUNIKASI BISNIS",
+      "sks": "3",
+      "semester": "SMT II"
+    },
+    {
+      "code": "AKT4128",
+      "name": "BAHASA INGGRIS",
+      "sks": "2",
+      "semester": "SMT II"
+    },
+    {
+      "code": "AKT4331",
+      "name": "AKUNTANSI KEUANGAN MENENGAH I",
+      "sks": "3",
+      "semester": "SMT III"
+    },
+    {
+      "code": "AKT4232",
+      "name": "STATISTIKA II",
+      "sks": "3",
+      "semester": "SMT III"
+    },
+    {
+      "code": "AKT4333",
+      "name": "SISTEM INFORMASI AKUNTANSI",
+      "sks": "3",
+      "semester": "SMT III"
+    },
+    {
+      "code": "AKT4234",
+      "name": "TEORI EKONOMI",
+      "sks": "3",
+      "semester": "SMT III"
+    },
+    {
+      "code": "AKT4335",
+      "name": "PERPAJAKAN I",
+      "sks": "3",
+      "semester": "SMT III"
+    },
+    {
+      "code": "AKT4336",
+      "name": "AKUNTANSI BIAYA",
+      "sks": "3",
+      "semester": "SMT III"
+    },
+    {
+      "code": "AKT4537",
+      "name": "PERILAKU KEORGANISASIAN",
+      "sks": "3",
+      "semester": "SMT III"
+    },
+    {
+      "code": "AKT4338",
+      "name": "PERPAJAKAN",
+      "sks": "-",
+      "semester": "SMT III"
+    },
+    {
+      "code": "AKT4341",
+      "name": "AKUNTANSI KEUANGAN MENENGAH II",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKT4342",
+      "name": "AKUNTANSI MANAJEMEN",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKT4345",
+      "name": "AKUNTANSI SEKTOR PUBLIK",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKT4446",
+      "name": "MANAJEMEN KEUANGAN",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKT4247",
+      "name": "PEREKONOMIAN INDONESIA",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKT4348",
+      "name": "KEWIRAUSAHAAN",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKT4349",
+      "name": "KEUANGAN DAERAH",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKT4351",
+      "name": "AKUNTANSI KEUANGAN LANJUTAN I",
+      "sks": "3",
+      "semester": "SMT V"
+    },
+    {
+      "code": "AKT4453",
+      "name": "ANALISIS LAPORAN KEUANGAN",
+      "sks": "3",
+      "semester": "SMT V"
+    },
+    {
+      "code": "AKT4355",
+      "name": "SISTEM INFORMASI MANAJEMEN",
+      "sks": "3",
+      "semester": "SMT V"
+    },
+    {
+      "code": "AKT4356",
+      "name": "ANALISIS INV. DAN MANAJ. PORTOFOLIO",
+      "sks": "3",
+      "semester": "SMT V"
+    },
+    {
+      "code": "AKT4358",
+      "name": "PEMERIKSAAN AKUNTAN I",
+      "sks": "3",
+      "semester": "SMT V"
+    },
+    {
+      "code": "AKT4359",
+      "name": "AKUNTANSI PEMERINTAH",
+      "sks": "3",
+      "semester": "SMT V"
+    },
+    {
+      "code": "AKT4361",
+      "name": "AKUNTANSI KEUANGAN LANJUTAN II",
+      "sks": "3",
+      "semester": "SMT VI"
+    },
+    {
+      "code": "AKT4464",
+      "name": "AUDIT INTERNAL",
+      "sks": "3",
+      "semester": "SMT VI"
+    },
+    {
+      "code": "AKT4365",
+      "name": "TEORI AKUNTANSI",
+      "sks": "3",
+      "semester": "SMT VI"
+    },
+    {
+      "code": "AKT4366",
+      "name": "METODE PENELITIAN AKUNTANSI",
+      "sks": "3",
+      "semester": "SMT VI"
+    },
+    {
+      "code": "AKT4367",
+      "name": "PEMERIKSAAN AKUNTAN II",
+      "sks": "3",
+      "semester": "SMT VI"
+    },
+    {
+      "code": "AKT4466",
+      "name": "TOPIK KHUSUS KEUANGAN",
+      "sks": "3",
+      "semester": "SMT VI"
+    },
+    {
+      "code": "AKT4467",
+      "name": "AKUNTANSI KEPERILAKUAN",
+      "sks": "-",
+      "semester": "SMT VI"
+    },
+    {
+      "code": "AKT4468",
+      "name": "PERENCANAAN PAJAK",
+      "sks": "-",
+      "semester": "SMT VI"
+    },
+    {
+      "code": "AKT4469",
+      "name": "PEMERIKSAAN AKUNTAN PEMERINTAH",
+      "sks": "-",
+      "semester": "SMT VI"
+    },
+    {
+      "code": "AKT4471",
+      "name": "AKUNTANSI INTERNASIONAL",
+      "sks": "3",
+      "semester": "SMT VII"
+    },
+    {
+      "code": "AKT4372",
+      "name": "SISTEM PENGENDALIAN MANAJEMEN",
+      "sks": "3",
+      "semester": "SMT VII"
+    },
+    {
+      "code": "AKT4473",
+      "name": "AUDIT PEMROSESAN DATA ELEKTRONIK",
+      "sks": "3",
+      "semester": "SMT VII"
+    },
+    {
+      "code": "AKT4574",
+      "name": "ETIKA BISNIS DAN PROFESI",
+      "sks": "3",
+      "semester": "SMT VII"
+    },
+    {
+      "code": "AKT4475",
+      "name": "MANAJEMEN STRATEGI",
+      "sks": "3",
+      "semester": "SMT VII"
+    },
+    {
+      "code": "AKT4476",
+      "name": "SEMINAR AKT KEUANGAN",
+      "sks": "-",
+      "semester": "SMT VII"
+    },
+    {
+      "code": "AKT4477",
+      "name": "SEMINAR AKUNTANSI MANAJEMEN",
+      "sks": "-",
+      "semester": "SMT VII"
+    },
+    {
+      "code": "AKT4478",
+      "name": "SEMINAR PERPAJAKAN",
+      "sks": "-",
+      "semester": "SMT VII"
+    },
+    {
+      "code": "AKT4479",
+      "name": "SEMINAR AKUNTANSI PEMERINTAH",
+      "sks": "-",
+      "semester": "SMT VII"
+    },
+    {
+      "code": "AKT4581",
+      "name": "KKU/MAGANG",
+      "sks": "3",
+      "semester": "SMT VII"
+    },
+    {
+      "code": "AKT4582",
+      "name": "SKRIPSI / NON SKRIPSI",
+      "sks": "6",
+      "semester": "SMT VII"
+    },
+    {
+      "code": "AKT4584",
+      "name": "MAGANG MAKALAH",
+      "sks": "3",
+      "semester": "SMT VII"
+    },
+    {
+      "code": "AKT4583",
+      "name": "KARYA BERBASIS KEILMUAN",
+      "sks": "3",
+      "semester": "SMT VII"
+    }
+  ],
+  "AKU21": [
+    {
+      "code": "AKU21 4101",
+      "name": "PENDIDIKAN AGAMA ISLAM",
+      "sks": "2",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKU21 4103",
+      "name": "PENDIDIKAN AGAMA KATOLIK",
+      "sks": "-",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKU21 4105",
+      "name": "PENDIDIKAN AGAMA KRISTEN PROTESTAN",
+      "sks": "-",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKU21 4501",
+      "name": "PENDIDIKAN PANCASILA",
+      "sks": "2",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKU21 4503",
+      "name": "ETNOGRAFI PAPUA",
+      "sks": "2",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKU21 4505",
+      "name": "BAHASA INDONESIA",
+      "sks": "2",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKU21 4201",
+      "name": "PENGANTAR EKONOMI",
+      "sks": "2",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKU21 4203",
+      "name": "PENGANTAR BISNIS",
+      "sks": "2",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKU21 4205",
+      "name": "MATEMATIKA EKONOMI",
+      "sks": "3",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKU21 4301",
+      "name": "PENGANTAR AKUNTANSI",
+      "sks": "3",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKU21 4507",
+      "name": "BAHASA INGGRIS",
+      "sks": "2",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKU21 4502",
+      "name": "PENDIDIKAN KEWARGANEGARAAN",
+      "sks": "2",
+      "semester": "SMT II"
+    },
+    {
+      "code": "AKU21 4202",
+      "name": "PENGANTAR MANAJEMEN",
+      "sks": "2",
+      "semester": "SMT II"
+    },
+    {
+      "code": "AKU21 4302",
+      "name": "KOMPUTER AKUNTANSI DAN DATA BASE",
+      "sks": "3",
+      "semester": "SMT II"
+    },
+    {
+      "code": "AKU21 4304",
+      "name": "STATISTIK EKONOMI DAN BISNIS",
+      "sks": "3",
+      "semester": "SMT II"
+    },
+    {
+      "code": "AKU21 4204",
+      "name": "HUKUM DAN REGULASI BISNIS",
+      "sks": "3",
+      "semester": "SMT II"
+    },
+    {
+      "code": "AKU21 4306",
+      "name": "AKUNTANSI KEUANGAN MENENGAH I",
+      "sks": "3",
+      "semester": "SMT II"
+    },
+    {
+      "code": "AKU21 4206",
+      "name": "TEORI EKONOMI",
+      "sks": "2",
+      "semester": "SMT II"
+    },
+    {
+      "code": "AKU21 4308",
+      "name": "KEUANGAN DAERAH",
+      "sks": "3",
+      "semester": "SMT II"
+    },
+    {
+      "code": "AKU21 4309",
+      "name": "AKUNTANSI BIAYA",
+      "sks": "3",
+      "semester": "SMT III"
+    },
+    {
+      "code": "AKU21 4311",
+      "name": "AKUNTANSI KEUANGAN MENENGAH II",
+      "sks": "3",
+      "semester": "SMT III"
+    },
+    {
+      "code": "AKU21 4305",
+      "name": "DIGITAL ACCOUNTING",
+      "sks": "3",
+      "semester": "SMT III"
+    },
+    {
+      "code": "AKU21 4303",
+      "name": "LINGKUNGAN BISNIS DAN ORGANISASI",
+      "sks": "3",
+      "semester": "SMT III"
+    },
+    {
+      "code": "AKU21 4207",
+      "name": "MANAJEMEN KEUANGAN",
+      "sks": "3",
+      "semester": "SMT III"
+    },
+    {
+      "code": "AKU21 4401",
+      "name": "PERILAKU ORGANISASI",
+      "sks": "3",
+      "semester": "SMT III"
+    },
+    {
+      "code": "AKU21 4307",
+      "name": "PERPAJAKAN I",
+      "sks": "3",
+      "semester": "SMT III"
+    },
+    {
+      "code": "AKU21 4208",
+      "name": "KOMUNIKASI DAN PRESENTASE BISNIS",
+      "sks": "2",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4310",
+      "name": "AKUNTANSI SEKTOR PUBLIK",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4312",
+      "name": "PERPAJAKAN II",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4314",
+      "name": "PEMERIKSAAN AKUNTAN I",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4316",
+      "name": "SISTEM INFORMASI AKUNTANSI",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4318",
+      "name": "AKUNTANSI MANAJEMEN",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4320",
+      "name": "AKUNTANSI KEUANGAN LANJUTAN",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4313",
+      "name": "RISK BASED AUDIT",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4403",
+      "name": "KEWIRAUSAHAAN",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4315",
+      "name": "METODOLOGI PENELITIAN AKUNTANSI",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4317",
+      "name": "ANALISIS LAPORAN KEUANGAN",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4209",
+      "name": "SISTEM INFORMASI MANAJEMEN",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4319",
+      "name": "PEMERIKSAAN AKUNTAN II",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4321",
+      "name": "AKUNTANSI TOPIK KHUSUS (Keuangan)",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4323",
+      "name": "AKUNTANSI KEPERILAKUAN (Keperilakuan)",
+      "sks": "-",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4325",
+      "name": "PERENCANAAN PAJAK (Perpajakan)",
+      "sks": "-",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4327",
+      "name": "SISTEM AKUNTANSI PEMERINTAHAN (ASP)",
+      "sks": "-",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4322",
+      "name": "MANAJEMEN INVESTASI DAN PORTOFOLIO",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4324",
+      "name": "TEORI AKUNTANSI",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4210",
+      "name": "ETIKA DAN BUDAYA BISNIS",
+      "sks": "2",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4326",
+      "name": "SUSTAINABILITY REPORTING",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4328",
+      "name": "DATA ANALYTICS",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4330",
+      "name": "AKUNTANSI INTERNASIONAL",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4332",
+      "name": "KONS. KEUANGAN: RISET DAN SEMINAR KEUANGAN",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4334",
+      "name": "KONS. MANAJEMEN: RISET DAN SEMINAR KONS MANAJEMEN",
+      "sks": "-",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4336",
+      "name": "KONS. PERPAJAKAN: RISET DAN SEMINAR PERPAJAKAN",
+      "sks": "-",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4338",
+      "name": "KONS. SEKTOR PUBLIK: RISET DAN SEMINAR SEKTOR PUBLIK",
+      "sks": "-",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4329",
+      "name": "MANAJEMEN STRATEGIK",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4213",
+      "name": "SISTEM PENGENDALIAN MANAJEMEN",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4407",
+      "name": "PEMODELAN KEUANGAN DAN SIMULASI BISNIS",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4409",
+      "name": "TEKNOLOGI DIGITAL AKUNTANSI",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4211",
+      "name": "AUDIT FORENSIK",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4331",
+      "name": "KONS. AKT. KEUANGAN: PENGANTAR PRAKTIK PENGAUDITAN",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4333",
+      "name": "KONS. AKT. MANAJEMEN: GOVERNANCE & CORPORATE SOCIAL RESPONSIBILITY (CSR)",
+      "sks": "-",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4335",
+      "name": "KONS. PERPAJAKAN: PENGANTAR PRAKTIK PERPAJAKAN",
+      "sks": "-",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4337",
+      "name": "KONS. AKT. SEKTOR PUBLIK: PENGANTAR PRAKTIK PEMERIKSAAN AKT PEMERINTAHAN",
+      "sks": "-",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4402",
+      "name": "KKN",
+      "sks": "6",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4404",
+      "name": "KOMPREHENSIF / PROPOSAL / SKRIPSI",
+      "sks": "6",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4416",
+      "name": "KARYA BERBASIS KEILMUAN",
+      "sks": "-",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4412",
+      "name": "INTERNSHIP",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU21 4414",
+      "name": "LAPORAN INTERNSHIP",
+      "sks": "3",
+      "semester": "SMT IV"
+    }
+  ],
+  "AKU26": [
+    {
+      "code": "AKU26 4101",
+      "name": "PENDIDIKAN AGAMA ISLAM",
+      "sks": "2",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKU26 4103",
+      "name": "PENDIDIKAN AGAMA KATOLIK",
+      "sks": "-",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKU26 4105",
+      "name": "PENDIDIKAN AGAMA KRISTEN PROTESTAN",
+      "sks": "-",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKU26 4107",
+      "name": "PENDIDIKAN AGAMA BUDHA",
+      "sks": "-",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKU26 4109",
+      "name": "PENDIDIKAN AGAMA HINDU",
+      "sks": "-",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKU26 4111",
+      "name": "PENDIDIKAN AGAMA KONGHUCHU",
+      "sks": "-",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKU26 4501",
+      "name": "PENDIDIKAN PANCASILA",
+      "sks": "2",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKU26 4503",
+      "name": "ETNOGRAFI PAPUA",
+      "sks": "2",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKU26 4505",
+      "name": "BAHASA INDONESIA",
+      "sks": "2",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKU26 4507",
+      "name": "BAHASA INGGRIS",
+      "sks": "2",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKU26 4201",
+      "name": "PENGANTAR EKONOMI",
+      "sks": "2",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKU26 4203",
+      "name": "PENGANTAR BISNIS",
+      "sks": "2",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKU26 4205",
+      "name": "MATEMATIKA EKONOMI",
+      "sks": "3",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKU26 4301",
+      "name": "PENGANTAR AKUNTANSI",
+      "sks": "3",
+      "semester": "SMT I"
+    },
+    {
+      "code": "AKU26 4202",
+      "name": "PENGANTAR MANAJEMEN",
+      "sks": "2",
+      "semester": "SMT II"
+    },
+    {
+      "code": "AKU26 4204",
+      "name": "HUKUM DAN REGULASI BISNIS",
+      "sks": "2",
+      "semester": "SMT II"
+    },
+    {
+      "code": "AKU26 4206",
+      "name": "TEORI EKONOMI",
+      "sks": "2",
+      "semester": "SMT II"
+    },
+    {
+      "code": "AKU26 4302",
+      "name": "KOMPUTER AKUNTANSI DAN DATABASE",
+      "sks": "3",
+      "semester": "SMT II"
+    },
+    {
+      "code": "AKU26 4304",
+      "name": "STATISTIK EKONOMI DAN BISNIS",
+      "sks": "3",
+      "semester": "SMT II"
+    },
+    {
+      "code": "AKU26 4306",
+      "name": "AKUNTANSI KEUANGAN MENENGAH I",
+      "sks": "3",
+      "semester": "SMT II"
+    },
+    {
+      "code": "AKU26 4308",
+      "name": "KEUANGAN DAERAH",
+      "sks": "3",
+      "semester": "SMT II"
+    },
+    {
+      "code": "AKU26 4502",
+      "name": "PENDIDIKAN KEWARGANEGARAAN",
+      "sks": "2",
+      "semester": "SMT II"
+    },
+    {
+      "code": "AKU26 4207",
+      "name": "MANAJEMEN KEUANGAN",
+      "sks": "3",
+      "semester": "SMT III"
+    },
+    {
+      "code": "AKU26 4303",
+      "name": "LINGKUNGAN BISNIS DAN ORGANISASI",
+      "sks": "3",
+      "semester": "SMT III"
+    },
+    {
+      "code": "AKU26 4305",
+      "name": "DIGITAL ACCOUNTING",
+      "sks": "3",
+      "semester": "SMT III"
+    },
+    {
+      "code": "AKU26 4307",
+      "name": "PERPAJAKAN I",
+      "sks": "3",
+      "semester": "SMT III"
+    },
+    {
+      "code": "AKU26 4309",
+      "name": "AKUNTANSI BIAYA",
+      "sks": "3",
+      "semester": "SMT III"
+    },
+    {
+      "code": "AKU26 4311",
+      "name": "AKUNTANSI KEUANGAN MENENGAH II",
+      "sks": "3",
+      "semester": "SMT III"
+    },
+    {
+      "code": "AKU26 4401",
+      "name": "PERILAKU ORGANISASI",
+      "sks": "3",
+      "semester": "SMT III"
+    },
+    {
+      "code": "AKU26 4208",
+      "name": "KOMUNIKASI DAN PRESENTASE BISNIS",
+      "sks": "2",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4310",
+      "name": "AKUNTANSI SEKTOR PUBLIK",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4312",
+      "name": "PERPAJAKAN II",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4314",
+      "name": "PEMERIKSAAN AKUNTAN I",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4316",
+      "name": "SISTEM INFORMASI AKUNTANSI",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4318",
+      "name": "AKUNTANSI MANAJEMEN",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4320",
+      "name": "AKUNTANSI KEUANGAN LANJUTAN",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4209",
+      "name": "SISTEM INFORMASI MANAJEMEN",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4313",
+      "name": "RISK BASED AUDIT",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4315",
+      "name": "METODOLOGI PENELITIAN AKUNTANSI",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4317",
+      "name": "ANALISIS LAPORAN KEUANGAN",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4319",
+      "name": "PEMERIKSAAN AKUNTAN II",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4403",
+      "name": "KEWIRAUSAHAAN",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4321",
+      "name": "KONS. KEUANGAN: AKUNTANSI TOPIK KHUSUS",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4323",
+      "name": "KONS. AKUNTANSI MANAJEMEN: AKUNTANSI KEPERILAKUAN",
+      "sks": "-",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4325",
+      "name": "KONS. PERPAJAKAN: PERENCANAAN PAJAK",
+      "sks": "-",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4327",
+      "name": "KONS. ASP: SISTEM AKUNTANSI PEMERINTAHAN",
+      "sks": "-",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4402",
+      "name": "ETIKA DAN BUDAYA BISNIS",
+      "sks": "2",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4322",
+      "name": "MANAJEMEN INVESTASI DAN PORTOFOLIO",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4324",
+      "name": "TEORI AKUNTANSI",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4326",
+      "name": "SUSTAINABILITY REPORTING",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4328",
+      "name": "DATA ANALYTICS",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4330",
+      "name": "AKUNTANSI INTERNASIONAL",
+      "sks": "-",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4332",
+      "name": "KONS. KEUANGAN: RISET DAN SEMINAR KEUANGAN",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4334",
+      "name": "KONS. AKUNTANSI MANAJEMEN: RISET DAN SEMINAR AKUNTANSI MANAJEMEN",
+      "sks": "-",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4336",
+      "name": "KONS. PERPAJAKAN: RISET DAN SEMINAR PERPAJAKAN",
+      "sks": "-",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4338",
+      "name": "KONS. ASP: RISET DAN SEMINAR AKUNTANSI SEKTOR PUBLIK",
+      "sks": "-",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4329",
+      "name": "AUDIT FORENSIK",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4405",
+      "name": "SISTEM PENGENDALIAN MANAJEMEN",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4331",
+      "name": "MANAJEMEN STRATEGIK",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4407",
+      "name": "PEMODELAN KEUANGAN DAN SIMULASI BISNIS",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4409",
+      "name": "TEKNOLOGI DIGITAL AKUNTANSI",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4333",
+      "name": "KONS. KEUANGAN: PENGANTAR PRAKTIK PENGAUDITAN",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4335",
+      "name": "KONS. AKUNTANSI MANAJEMEN: GOVERNANCE DAN CORPORATE SOCIAL RESPONSIBILITY",
+      "sks": "-",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4337",
+      "name": "KONS. PERPAJAKAN: PENGANTAR PRAKTIK PERPAJAKAN",
+      "sks": "-",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4339",
+      "name": "KONS. ASP: PENGANTAR PRAKTIK PEMERIKSAAN AKUNTANSI PEMERINTAHAN",
+      "sks": "-",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4502",
+      "name": "KKN",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4404",
+      "name": "KOMPREHENSIF / PROPOSAL / SKRIPSI",
+      "sks": "6",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4504",
+      "name": "KARYA BERBASIS KEILMUAN",
+      "sks": "-",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4506",
+      "name": "INTERNSHIP",
+      "sks": "3",
+      "semester": "SMT IV"
+    },
+    {
+      "code": "AKU26 4508",
+      "name": "LAPORAN INTERNSHIP",
+      "sks": "3",
+      "semester": "SMT IV"
+    }
+  ]
+}

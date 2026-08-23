@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ekobot Admin Dashboard & Chatbot Simulator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glass-bg"></div>
+  <div class="app-container">
+    
+    <!-- HEADER -->
+    <header class="app-header">
+      <div class="header-logo">
+        <div class="logo-icon"><i class="fa-solid fa-robot"></i></div>
+        <div class="logo-text">
+          <h1>ekobot</h1>
+          <p>EKONOMI DAN BISNIS OTOMATIS</p>
+        </div>
+      </div>
+      <div class="header-meta">
+        <div class="status-badge" id="system-status">
+          <span class="status-dot green"></span>
+          <span class="status-label">Server Local Aktif</span>
+        </div>
+        <div class="status-badge" id="bot-status-badge">
+          <span class="status-dot gray" id="bot-status-dot"></span>
+          <span class="status-label" id="bot-status-text">Bot Telegram Offline</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN WORKSPACE -->
+    <main class="app-main">
+      
+      <!-- LEFT COLUMN: CHATBOT SIMULATOR -->
+      <section class="panel simulator-panel">
+        <div class="panel-header">
+          <h2><i class="fa-solid fa-mobile-screen-button"></i> Simulator Chatbot</h2>
+          <span class="badge">Offline Demo</span>
+        </div>
+        
+        <!-- Phone Simulator Container -->
+        <div class="phone-container">
+          <div class="phone-screen">
+            <!-- Bot Chat Header -->
+            <div class="phone-header">
+              <div class="bot-avatar">
+                <i class="fa-solid fa-robot"></i>
+              </div>
+              <div class="bot-info">
+                <h3>Ekobot</h3>
+                <p>bot • aktif 24/7</p>
+              </div>
+            </div>
+            
+            <!-- Chat Messages Area -->
+            <div class="chat-messages" id="chat-messages">
+              <!-- Default welcome bubble -->
+              <div class="message bot">
+                <div class="message-bubble">
+                  Selamat datang di Ekobot Fakultas Ekonomi dan Bisnis Universitas Cenderawasih.
+                  <br><br>
+                  Saya siap membantu memberikan informasi akademik.
+                  <br><br>
+                  Silakan masukkan NIM Anda terlebih dahulu.
+                </div>
+                <div class="message-time">12:00</div>
+              </div>
+            </div>
+            
+            <!-- Telegram Style Custom Keyboard Menu -->
+            <div class="custom-keyboard">
+              <div class="keyboard-grid" style="grid-template-columns: 1fr 1fr 1fr; gap: 6px;">
+                <button class="kbd-btn" style="grid-column: span 1.5;" onclick="sendSimulatedMessage('/kaldik')">📅 Kalender Akademik</button>
+                <button class="kbd-btn" style="grid-column: span 1.5;" onclick="sendSimulatedMessage('/jadwalkuliah')">📚 Jadwal Kuliah</button>
+                <button class="kbd-btn" style="grid-column: span 1.5;" onclick="sendSimulatedMessage('/janjian')">📝 Jadwal Ujian</button>
+                <button class="kbd-btn" style="grid-column: span 1.5;" onclick="sendSimulatedMessage('/beasiswa')">💰 Info Beasiswa</button>
+                <button class="kbd-btn" onclick="sendSimulatedMessage('/akt')">🎓 S1 Akuntansi</button>
+                <button class="kbd-btn" onclick="sendSimulatedMessage('/man')">🎓 S1 Manajemen</button>
+                <button class="kbd-btn" onclick="sendSimulatedMessage('/ie')">🎓 S1 Ilmu Ekonomi</button>
+                <button class="kbd-btn" style="grid-column: span 1.5;" onclick="sendSimulatedMessage('/tugasakhir')">🎓 Tugas Akhir</button>
+                <button class="kbd-btn" style="grid-column: span 1.5;" onclick="sendSimulatedMessage('/zi')">🛡️ Zona Integritas</button>
+                <button class="kbd-btn" style="grid-column: span 1.5;" onclick="sendSimulatedMessage('/kontak')">📞 Kontak & Lokasi</button>
+                <button class="kbd-btn" style="grid-column: span 1.5;" onclick="sendSimulatedMessage('/reset_portal')">🔓 Reset Portal Mandiri</button>
+              </div>
+            </div>
+            
+            <!-- Input Area -->
+            <div class="chat-input-area">
+              <input type="text" id="chat-input" placeholder="Tulis pertanyaan Anda di sini..." onkeypress="handleKeyPress(event)">
+              <button class="send-btn" onclick="sendUserMessage()"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- RIGHT COLUMN: ADMIN CONTROL & KNOWLEDGE BASE -->
+      <section class="panel control-panel">
+        
+        <!-- TELEGRAM BOT INTEGRATION CARD -->
+        <div class="card telegram-card">
+          <div class="card-header">
+            <h3><i class="fa-brands fa-telegram"></i> Integrasi Bot Telegram</h3>
+            <span class="status-indicator stopped" id="bot-status-indicator">OFFLINE</span>
+          </div>
+          <div class="card-body">
+            <p class="description">
+              Masukkan token API bot Telegram yang Anda peroleh dari <span class="tag">@BotFather</span> untuk mengaktifkan bot secara live.
+            </p>
+            <div class="input-group">
+              <label for="bot-token"><i class="fa-solid fa-key"></i> Bot Token API</label>
+              <input type="password" id="bot-token" placeholder="Masukkan token bot Anda (cth: 123456789:ABCdef...)">
+            </div>
+            <div class="btn-group">
+              <button class="btn btn-primary" id="btn-toggle-bot" onclick="toggleTelegramBot()">
+                <i class="fa-solid fa-play"></i> Aktifkan Bot
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- KNOWLEDGE BASE EDITOR -->
+        <div class="card kb-card">
+          <div class="card-header">
+            <h3><i class="fa-solid fa-database"></i> Manajer Basis Pengetahuan</h3>
+            <button class="btn btn-secondary btn-sm" onclick="saveAllKB()"><i class="fa-solid fa-save"></i> Simpan Semua</button>
+          </div>
+          <div class="card-body">
+            <div class="kb-tabs">
+              <button class="tab-btn active" onclick="switchKBTab('start')">Welcome</button>
+              <button class="tab-btn" onclick="switchKBTab('kaldik')">Kaldik</button>
+              <button class="tab-btn" onclick="switchKBTab('jadwalkuliah')">Jadwal Kuliah</button>
+              <button class="tab-btn" onclick="switchKBTab('janjian')">Jadwal Ujian</button>
+              <button class="tab-btn" onclick="switchKBTab('akt')">S1 Akuntansi</button>
+              <button class="tab-btn" onclick="switchKBTab('man')">S1 Manajemen</button>
+              <button class="tab-btn" onclick="switchKBTab('ie')">S1 Ilmu Ekonomi</button>
+              <button class="tab-btn" onclick="switchKBTab('beasiswa')">Beasiswa</button>
+              <button class="tab-btn" onclick="switchKBTab('tugasakhir')">Tugas Akhir</button>
+              <button class="tab-btn" onclick="switchKBTab('zi')">Zona Integritas</button>
+              <button class="tab-btn" onclick="switchKBTab('kontak')">Kontak</button>
+              <button class="tab-btn" onclick="switchKBTab('faq_krs_isi')">FAQ: Isi KRS</button>
+              <button class="tab-btn" onclick="switchKBTab('faq_nilai_portal')">FAQ: Nilai</button>
+              <button class="tab-btn" onclick="switchKBTab('faq_reset_portal')">FAQ: Reset Portal</button>
+              <button class="tab-btn" onclick="switchKBTab('faq_sempro_daftar')">FAQ: Sempro</button>
+              <button class="tab-btn" onclick="switchKBTab('faq_sidang_daftar')">FAQ: Ujian/Sidang</button>
+              <button class="tab-btn" onclick="switchKBTab('faq_sp_daftar')">FAQ: Sem. Antara</button>
+              <button class="tab-btn" onclick="switchKBTab('faq_pddikti_ubah')">FAQ: PDDIKTI</button>
+              <button class="tab-btn" onclick="switchKBTab('faq_pindah_prodi')">FAQ: Pindah Prodi</button>
+              <button class="tab-btn" onclick="switchKBTab('fallback')">Fallback</button>
+            </div>
+            
+            <div class="kb-editor-container">
+              <div class="editor-header">
+                <span id="current-kb-title">Welcome Message</span>
+                <span class="markdown-badge"><i class="fa-brands fa-markdown"></i> Mendukung Markdown</span>
+              </div>
+              <textarea id="kb-textarea" placeholder="Tulis konten informasi di sini..."></textarea>
+              <div class="editor-footer">
+                <p class="kb-hint">Perubahan akan langsung disimpan dan memperbarui respons chatbot simulator.</p>
+                <button class="btn btn-primary" onclick="saveCurrentKBTab()"><i class="fa-solid fa-check"></i> Simpan Tab Ini</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="app-footer">
+      <div class="footer-left">
+        <p>&copy; 2026 Tugas Akhir - Novi Trihadi Jayanti (NIM: 200101010060)</p>
+      </div>
+      <div class="footer-right">
+        <span class="tech-tag">Node.js</span>
+        <span class="tech-tag">Express</span>
+        <span class="tech-tag">Telegram Bot API</span>
+      </div>
+    </footer>
+    
+    <!-- Qontak-Style Agentic AI Floating Chat Widget -->
+    <div id="qontak-chat-widget">
+      <!-- Toggle Button -->
+      <button id="qontak-chat-button" onclick="toggleChatWidget()">
+        <span class="badge-online">1</span>
+        <i class="fa-solid fa-comments"></i>
+      </button>
+      
+      <!-- Pop-up Chat Window -->
+      <div id="qontak-chat-window">
+        <div class="qontak-header">
+          <div class="qontak-avatar">
+            <i class="fa-solid fa-robot"></i>
+          </div>
+          <div class="qontak-title">
+            <h4>Ekobot Support Agent</h4>
+            <span><span class="status-online"></span> Agentic AI Online</span>
+          </div>
+          <button class="qontak-close" onclick="toggleChatWidget()">&times;</button>
+        </div>
+        <div class="qontak-messages" id="qontak-messages">
+          <div class="qmsg bot">
+            <div class="qmsg-bubble">
+              Halo! Saya adalah **Ekobot Agentic AI**.
+              <br><br>
+              Silakan masukkan NIM Anda terlebih dahulu untuk memulai konsultasi akademik secara langsung.
+            </div>
+            <div class="qmsg-time">Sekarang</div>
+          </div>
+        </div>
+        <div class="qontak-input-area">
+          <input type="text" id="qontak-input" placeholder="Tulis pertanyaan..." onkeypress="handleQontakKeyPress(event)">
+          <button class="qontak-send" onclick="sendQontakMessage()"><i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+      </div>
+    </div>
+  <script src="app.js"></script>
+  <script src="script.js"></script>
+  </div>
+</body>
+</html>
