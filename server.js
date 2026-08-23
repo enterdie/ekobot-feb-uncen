@@ -1116,6 +1116,16 @@ app.post('/api/bot/control', (req, res) => {
   }
 });
 
+// Route for public widget interface (landing page)
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'widget.html'));
+});
+
+// Route for admin dashboard page
+app.get('/admin', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+
 // Start web server
 app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`);
