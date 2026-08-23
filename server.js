@@ -14,6 +14,7 @@ app.use(express.json());
 app.get('/style.css', (req, res) => res.sendFile(path.join(__dirname, 'public', 'style.css')));
 app.get('/app.js', (req, res) => res.sendFile(path.join(__dirname, 'public', 'app.js')));
 app.get('/script.js', (req, res) => res.sendFile(path.join(__dirname, 'public', 'script.js')));
+app.get('/icon-ekobot.png', (req, res) => res.sendFile(path.join(__dirname, 'public', 'icon-ekobot.png')));
 
 const KB_PATH = path.join(__dirname, 'knowledge_base.json');
 const STUDENTS_PATH = path.join(__dirname, 'students.json');
